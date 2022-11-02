@@ -1,0 +1,137 @@
+footer {
+    /* background-color: lightblue; */
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    row-gap: 1px;
+    margin-bottom: 30px;
+}
+.footer-top {   
+    background-color: black; 
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media (max-width: 800px) {
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 801px) {
+    .footer-top {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.footer-top .sign-up-message {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
+.sign-up-box {
+}
+.sign-up-box input {
+    width: 350px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border-style: none;
+    padding-left: 20px;
+    background-color: rgb(49, 49, 49);
+}
+.sign-up-box button {
+    height: 50px;
+    background-color: white;
+    border-style: none;
+    font-size: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-left: -4px;
+}
+.footer-top-right {
+    padding-left: 20px;
+}
+.footer-top-right .call-message {
+    font-size: 24px;
+    color: rgb(202, 202, 202);
+}
+.direction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0;
+}
+.guides {
+    font-size: 34px;
+    color: white;
+    font-weight: 800;
+}
+.arrow {
+    font-size: 90px;
+    color: purple;
+}
+.footer-bottom {
+    background-color: black; 
+}
+.footer-bottom-upper {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    color: white;
+    font-size: 16px;
+    padding: 40px;
+}
+@media (max-width: 600px) {
+    .footer-bottom-upper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+    .footer-bottom-upper {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 801px) {
+    .footer-bottom-upper {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+.sub-title {
+    color: rgb(184, 184, 184);
+    font-size: 12px;
+    margin-top: 20px;
+}
+.footer-bottom-lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.footer-bottom-lower .left-section {
+    display: flex;  
+    justify-content: center;
+    align-items: center;  
+}
+.footer-bottom-lower .left-section .godaddy-logo {
+    color: white;
+}
+.footer-bottom-lower .left-section .options {
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.footer-bottom-lower .right-section {
+    width: 150px;
+    margin-right: 40px;
+}
+.right-section img {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.right-section img:hover {
+    opacity: 0.7;
+}

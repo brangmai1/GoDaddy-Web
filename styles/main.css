@@ -1,0 +1,193 @@
+main {
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 1000px;
+}
+.search-input {
+    width: 570px;
+    height: 55px;
+    background-color: rgb(234, 234, 234);
+    border-style: none;
+    font-size: 18px;
+    padding-left: 25px;
+}
+.search-bar button {
+    width: 200px;
+    height: 58px;
+    padding: 20px 40px;
+    background-color: rgb(3, 135, 158);
+    color: white;
+    font-size: 14px;
+    border-style: none;
+    margin-left: -5px;
+}
+.middle-boxes {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: top;
+}
+@media (max-width: 900px) {
+    .middle-boxes {
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 901px) {
+    .middle-boxes {
+        grid-template-columns: 1fr 400px;
+    }
+}
+.middle-box-left {
+    background-color: rgb(245, 233, 235);
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle-box-right {
+    width: 300px;
+    height: 400px; 
+    background-color: rgb(175, 222, 230);
+    padding: 40px;
+}
+.middle-left-left {
+    width: 400px;
+    margin-left: 50px;
+    /* border-style: solid; */
+    /* display: inline-block; */
+    /* padding: 50px; */
+}
+.middle-box-left .sub-section {
+    font-size: 12px;
+    color: black;
+    margin-bottom: 20px;
+}
+.middle-box-left .article-title {
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.middle-box-left .article-content {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.sub-division {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.get-started-button {
+    background-color: black;
+    border-style: none;
+    color: white;
+    font-size: 18px;
+    padding: 16px 50px;
+}
+.learn-more {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.small-note {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.middle-left-right {
+    width: 400px;
+    border-style: none;
+    margin-right: 0;
+    object-fit: contain;
+    /* object-position: right; */
+} 
+.rockies-picture {
+    width: 100%;
+}
+.middle-box-right .details {
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: black;
+}
+.middle-box-right .title {
+    font-size: 34px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.middle-box-right .button {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 14px 40px;
+    border-style: none;
+    margin-bottom: 20px;
+}
+.middle-box-right .transfer-note {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+    color: black;
+}
+.grid-row {
+    /* display: grid; */
+}
+.grid-item {
+    border: 0.5px gray solid;
+    padding: 35px 60px;   
+    cursor: pointer;   
+}
+.grid-item:hover {
+    background-color: black;
+    color: white; 
+}
+.last-grid {
+    border: 0.5px gray solid;
+    padding: 33px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.last-grid:hover {
+    background-color: black;
+    color: white; 
+}
+.last-grid .line-1 {
+    background-color: rgb(86, 234, 244);
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.last-grid .line-2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.last-grid .line-3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.contact-button {
+    background-color: white;
+    font-size: 16px;
+    position: fixed;
+    padding: 12px 50px;
+    border-top: 3px rgb(6, 110, 195)solid;
+    border-bottom: 3px rgb(83, 0, 237) solid;
+    border-left: 3px rgb(6, 110, 195) solid;
+    border-right: 3px rgb(83, 0, 237) solid;
+    border-radius: 25px;
+    right: 100px;
+    bottom: 50px;
+}

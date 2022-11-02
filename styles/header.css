@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    cursor: pointer;
+}
+.godaddy-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+}
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle-section .header-label {
+    padding-right: 20px;
+}
+.right-section .header-label {
+    padding-right: 20px;
+}
+.header-label:hover {
+    opacity: 0.7;
+}
